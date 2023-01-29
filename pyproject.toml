@@ -1,0 +1,7 @@
+[project]
+name = "dpstats"
+description = "A small library for statistical inference on IBDP grades."
+version = "0.1.0"
+authors = [
+    { name = "Richard Ambler", email = "rambler@ibwya.net" }
+]
