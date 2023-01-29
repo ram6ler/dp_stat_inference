@@ -5,12 +5,14 @@ A simple helper class to perform bootstrap-based statistical inference on grade 
 ## To Install
 
 ```
-python3 -m pip install git+
+python3 -m pip install git+https://github.com/ram6ler/dp_stat_inference@main
 ```
 
 ## To Use
 
-Example:
+The library exposes a `Subject` class that may be used to generate statistics, samples and confidence intervals on subjects based on grade boundaries and distributions [published by IB](https://ibo.org/about-the-ib/facts-and-figures/statistical-bulletins/diploma-programme-and-career-related-programme-statistical-bulletin/) shortly after each examination session.
+
+Example use:
 
 ```py
 import dpstats as dp
